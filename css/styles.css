@@ -37,7 +37,9 @@ h3 {
   color: #308db0;
 }
 a{
-  color: #c1e9f7;
+  color: #308db0;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
 }
 p{
   margin:0;
@@ -94,6 +96,22 @@ p{
 .profile{
   width: 50%;
   margin: 100px auto 100px auto;
+}
+.btn{
+  background-color: #4ac1ed;
+  padding: 0.6rem 1.1rem 0.6rem 1.1rem;
+  margin: 3rem;
+  border-radius: 8%;
+  border-color: #4ac1ed;
+  font-size: 1.5rem;
+  color: white;
+  box-shadow: none;
+  font-family: 'Montserrat', sans-serif;
+}
+.name{
+  font-size: 75%;
+  color: white;
+  text-align: center;
 }
 hr{
   border-style: dotted none none;
