@@ -29,6 +29,7 @@ h2 {
   font-size: 2.5rem;
   margin-top: 0;
   color: #1f7a9c;
+  padding: 1rem;
 }
 
 h3 {
@@ -40,6 +41,8 @@ a{
 }
 p{
   margin:0;
+  line-height: 2;
+  padding-bottom: 2rem;
 }
 
 
@@ -68,14 +71,35 @@ p{
 .prog{
   font-weight: normal;
   line-height: 2;
+  padding: 0;
 }
 .footer-link{
   padding-right: 5em;
   padding-left: 5em;
 }
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.skill-pic{
+  float: left;
+  padding-right: 2em;
+}
+
+.skill-pic2{
+  float: right;
+  padding-left: 2em;
+}
+.profile{
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
 hr{
   border-style: dotted none none;
-  border-width: thick;
-  width: 6%;
-  border-color: #105c78;
+  border-width:1rem;
+  width: 4%;
+  border-color: #e4eef2;
+  padding: 1rem;
+
 }
