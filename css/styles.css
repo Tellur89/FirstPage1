@@ -1,22 +1,27 @@
 .top-container {
   position: relative;
+height: 721px;
   background-color: #4ac1ed;
+
 }
 
 
 
 body {
-  background-color: #4ac1ed;
+  background-color: white;
   font-family: 'Merriweather', serif;
   text-align: center;
+  margin:0;
 }
 
 h1 {
   width: 30%;
-  margin: 137px auto 0 auto;
+  margin: 0 auto 0 auto;
+  padding-top: 60px;
   font-family: 'Sacramento', cursive;
   font-size: 6.25rem;
   color:#1f7a9c;
+  line-height: 2;
 }
 
 h2 {
@@ -33,12 +38,15 @@ h3 {
 a{
   color: #c1e9f7;
 }
+p{
+  margin:0;
+}
 
 
 .topc {
   position: absolute;
   right: 300px;
-  top: 0
+  top: 70px;
 }
 
 .bottomc {
@@ -46,9 +54,24 @@ a{
   left: 300px;
   bottom: 300px;
 }
+.img3{
+  position: absolute;
+  right:450px;
+  bottom:0;
+
+}
 
 .bottom-container{
-  background-color: #0091c7;
+  background-color: #4ac1ed;
+  padding: 5em;
+}
+.prog{
+  font-weight: normal;
+  line-height: 2;
+}
+.footer-link{
+  padding-right: 5em;
+  padding-left: 5em;
 }
 hr{
   border-style: dotted none none;
